@@ -1,0 +1,15 @@
+html, body, header, #intro {
+    height: 100%;
+}
+
+header {
+    text-shadow: 1px 1px 1px black;
+}
+
+#intro {
+    background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
