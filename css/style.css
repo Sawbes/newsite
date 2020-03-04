@@ -6,6 +6,10 @@ header {
     text-shadow: 1px 1px 1px black;
 }
 
+nav {
+    background-color:  black;
+}
+
 #intro {
     background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg);
     -webkit-background-size: cover;
