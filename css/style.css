@@ -6,14 +6,32 @@ header {
     text-shadow: 1px 1px 1px black;
 }
 
-nav {
-    background-color:  black;
-}
-
 #intro {
-    background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg);
+    background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 
+.top-nav-collapse {
+    background-color: #1e256b;
+}
+
+@media (max-width: 768px;) {
+    .navbar:not(.top-nav-collapse){
+        background-color: #1e256b;
+    }
+}
+
+.map-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
