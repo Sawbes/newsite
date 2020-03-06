@@ -2,23 +2,23 @@ html, body, header, #intro {
     height: 100%;
 }
 
-header {
+header, footer {
     text-shadow: 1px 1px 1px black;
 }
 
 #intro {
-    background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg) no-repeat center center fixed;
+    background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     background-size: cover; 
 }
 
 .top-nav-collapse {
-    background-color: #1e256b;
+    background-color: #6351ce;
 }
 
-@media (max-width: 768px;) {
+@media (max-width: 768px) {
     .navbar:not(.top-nav-collapse){
-        background-color: #1e256b;
+        background-color: #6351ce;
     }
 }
 
