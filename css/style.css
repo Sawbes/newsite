@@ -3,11 +3,11 @@ html, body, header, #intro {
 }
 
 header, footer {
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 3px 3px 3px black;
 }
 
 #intro {
-    background: url(https://mdbootstrap.com/img/Photos/Others/images/91.jpg) no-repeat center fixed;
+    background: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1920) no-repeat center fixed;
     -webkit-background-size: cover;
     background-size: cover; 
 }
